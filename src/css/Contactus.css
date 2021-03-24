@@ -1,0 +1,47 @@
+
+.contact{
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;  
+}
+.contact-heading{
+    color:darkslategrey;;
+}
+*, *:before, *:after {
+    box-sizing:content-box;
+    
+  }
+
+@media screen and (max-width:150rem){
+    .outer-box-frame {
+        border: 0.5rem solid darkslategrey;
+        margin: 1rem auto;
+        padding: 5rem; 
+        max-width: 38rem;
+    }
+    .contact-form{    
+    
+        border-radius: 25%;
+       
+    }
+    .label{
+    
+        color:darkslategrey;;
+        font-weight: bold;
+    }
+    .title{
+        border: 2px solid darkslategrey;
+        margin: 5px;
+        /* margin-left: 10px; */
+        
+    }
+    .button{
+        background-color: darkslategrey;;
+        color: white;
+       
+        height: 50%;
+        font-size: 20px;
+        border-radius: 25%;
+        
+    }
+}
